@@ -1,0 +1,174 @@
+Terminal Output with pid_list = [1 for i in range(4701)] to mark all PIDs in use:
+
+python3 pid_manager.py
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 2
+
+Error: Please initialize the PID map
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 1
+
+PID Map successfully initialized
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 2
+
+Error: PID Map not initialized or all PIDs in use
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 4
+
+Terminal Output with pid_list = [0 for i in range(4701)]:
+
+ ~/Downloads/CISC3320-HW1   gui ●  python3 pid_manager.py
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 2
+
+Error: Please initialize the PID map
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 3
+Enter PID to be released: 300
+
+Error: Please initialize the PID map
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 1
+
+PID Map successfully initialized
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 2
+
+Allocated PID 300
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 3
+Enter PID to be released: 299
+
+Error: Cannot release a PID value less than 300
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 3
+Enter PID to be released: 300
+
+PID 300 has been released
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 3
+Enter PID to be released: 5000
+
+PID 5000 has been released
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 3
+Enter PID to be released: 5001
+
+Error: Cannot release a PID value greater than 5000
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 3
+Enter PID to be released: fio
+
+Error: Please enter a valid menu option or PID value.
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: fwe
+
+Error: Please enter a valid menu option or PID value.
+
+PID Manager Menu
+
+1: Allocate Map
+2: Allocate PID
+3: Release PID
+4: Quit
+
+Menu Selection: 4
